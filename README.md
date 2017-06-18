@@ -14,5 +14,20 @@
 ### 2.	Android programming is basically Java coding with extra GUI libraries. The fundamentals are still the same. Therefore, you can actually create an array of CheckBox. Each element points to a specific CheckBox. This would then allow you to reference the different checkboxes via index and loop.
 ### 3.	Sometimes, you will find similarities in features and/or concept. Example: JLabel and TextView
 
-### Example Output (you can re-design to make it more appealing)
+## Example Output (you can re-design to make it more appealing)
+
+### Screenshot #1:
+![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/1.JPG?raw=true "GUI screenshot")
+
+### Screenshot #2:
+![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/2.JPG?raw=true "GUI screenshot")
+
+### Screenshot #3:
+![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/3.JPG?raw=true "GUI screenshot")
+
+### Screenshot #4:
+![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/4.JPG?raw=true "GUI screenshot")
+
+### Screenshot #5:
+![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/4.JPG?raw=true "GUI screenshot")
 
