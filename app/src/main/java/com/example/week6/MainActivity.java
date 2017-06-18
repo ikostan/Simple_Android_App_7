@@ -63,7 +63,14 @@ public class MainActivity extends Activity {
 
                 if(isEmpty){
 
-                    txtResult.setText(finalResult);
+                    if(finalResult.trim().equals("")){
+
+                        Toast.makeText(MainActivity.this, "ERROR: Please generate random numbers first", Toast.LENGTH_SHORT).show();
+                    }
+                    else{
+
+                        txtResult.setText(finalResult);
+                    }
                 }
                 else{
 
