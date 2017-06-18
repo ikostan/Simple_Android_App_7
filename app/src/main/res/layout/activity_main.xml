@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.week6.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/header"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="29dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <CheckBox
+        android:id="@+id/box3"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/box4"
+        app:layout_constraintLeft_toLeftOf="@+id/box4"
+        app:layout_constraintTop_toBottomOf="@+id/box2" />
+
+    <CheckBox
+        android:id="@+id/box4"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/box3"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <CheckBox
+        android:id="@+id/box1"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/box2"
+        app:layout_constraintLeft_toLeftOf="@+id/box2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <CheckBox
+        android:id="@+id/box2"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/box3"
+        app:layout_constraintLeft_toLeftOf="@+id/box3"
+        app:layout_constraintTop_toBottomOf="@+id/box1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="223dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="351dp" />
+
+    <Button
+        android:id="@+id/btnRnd"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Generate Numbers"
+        app:layout_constraintBottom_toTopOf="@+id/btnPick"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/btnPick"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Pick"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="313dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        tools:layout_editor_absoluteX="-92dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+</android.support.constraint.ConstraintLayout>
