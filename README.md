@@ -17,17 +17,17 @@
 ## Example Output (you can re-design to make it more appealing)
 
 ### Screenshot #1:
-![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/1.JPG?raw=true "GUI screenshot")
+![GUI](https://github.com/ikostan/Simple_Android_App_7/blob/master/files/1.JPG?raw=true "GUI screenshot")
 
 ### Screenshot #2:
-![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/2.JPG?raw=true "GUI screenshot")
+![GUI](https://github.com/ikostan/Simple_Android_App_7/blob/master/files/2.JPG?raw=true "GUI screenshot")
 
 ### Screenshot #3:
-![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/3.JPG?raw=true "GUI screenshot")
+![GUI](https://github.com/ikostan/Simple_Android_App_7/blob/master/files/3.JPG?raw=true "GUI screenshot")
 
 ### Screenshot #4:
-![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/4.JPG?raw=true "GUI screenshot")
+![GUI](https://github.com/ikostan/Simple_Android_App_7/blob/master/files/4.JPG?raw=true "GUI screenshot")
 
 ### Screenshot #5:
-![GUI](https://github.com/ikostan/Simple_Android_App_6/blob/master/files/4.JPG?raw=true "GUI screenshot")
+![GUI](https://github.com/ikostan/Simple_Android_App_7/blob/master/files/5.JPG?raw=true "GUI screenshot")
 
